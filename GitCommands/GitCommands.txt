@@ -1,0 +1,9 @@
+Git
+
+
+git --version
+
+git config --global user.name "Gijo"
+git config --global user.email "gijo2jose@gmail.com"
+
+rm -rf .git    
