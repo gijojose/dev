@@ -1,0 +1,40 @@
+Git
+
+
+git --version
+
+git config --global user.name "Gijo"
+git config --global user.email "gijo2jose@gmail.com"
+
+rm -rf .git
+git push -u origin main
+
+git branch -M main
+
+git checkout branch
+
+git checkout -b branchname
+
+
+git checkout main
+git fetch origin
+git pull origin main
+
+git merge  feature-branch
+
+git push origin main
+
+git checkout -b branchname
+
+----To delete a brach
+
+git checkout main
+
+git branch -d feature-branch-name
+
+git branch -D feature-branch-name (for force delete)
+
+git push origin --delete feature-branch-name
+
+--------------
+
