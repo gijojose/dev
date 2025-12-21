@@ -7,3 +7,6 @@ git config --global user.name "Gijo"
 git config --global user.email "gijo2jose@gmail.com"
 
 rm -rf .git    
+git push -u origin main
+
+git branch -M main
