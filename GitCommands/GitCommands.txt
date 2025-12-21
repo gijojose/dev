@@ -14,3 +14,12 @@ git branch -M main
 git checkout branch
 
 git checkout -b branchname
+
+
+git checkout main
+git fetch origin
+git pull origin main
+
+git merge  feature-branch
+
+git push origin main
