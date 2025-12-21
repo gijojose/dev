@@ -10,3 +10,5 @@ rm -rf .git
 git push -u origin main
 
 git branch -M main
+
+git checkout branch
